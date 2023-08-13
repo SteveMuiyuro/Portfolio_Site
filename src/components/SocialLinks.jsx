@@ -45,7 +45,7 @@ export default function SocialLinks() {
     },
   ];
   return (
-    <div className="flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li

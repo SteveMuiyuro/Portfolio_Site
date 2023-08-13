@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "/src/assets/heroImage.png";
 import { PiArrowRight } from "react-icons/pi";
+import { Link } from "react-scroll";
 export default function Home() {
   return (
     <div
@@ -21,12 +22,17 @@ export default function Home() {
             high-performance user interfaces that engage and delight users.
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
               View Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <PiArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
