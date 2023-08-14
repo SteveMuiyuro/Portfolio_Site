@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -45,7 +44,7 @@ export default function SocialLinks() {
     },
   ];
   return (
-    <div className="hidden lg:flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
@@ -61,6 +60,7 @@ export default function SocialLinks() {
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
+              rel="noreferrer"
             >
               {child}
             </a>

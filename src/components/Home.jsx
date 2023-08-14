@@ -8,7 +8,7 @@ export default function Home() {
       name="home"
       className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between gap-x-80 h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front End Developer
