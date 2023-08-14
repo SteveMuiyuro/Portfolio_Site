@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "/src/assets/heroImage.png";
+import myImage from "/src/assets/profile_photo.png";
 import { PiArrowRight } from "react-icons/pi";
 import { Link } from "react-scroll";
 export default function Home() {
@@ -8,9 +8,9 @@ export default function Home() {
       name="home"
       className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between gap-x-80 h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">

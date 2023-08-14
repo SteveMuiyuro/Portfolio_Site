@@ -1,38 +1,47 @@
-import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import Gfox from "../assets/portfolio/Gfox.png";
+import Quizzical from "../assets/portfolio/Quizzical.png";
+import Resume from "../assets/portfolio/Resume.png";
+import Library from "../assets/portfolio/Library.png";
 
 export default function Portfolio() {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Gfox,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_Gfox_Logistics",
+      liveUrl: "https://gfoxlogistics.netlify.app/",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: Quizzical,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
+      liveUrl: "https://project-quizzical.netlify.app/",
     },
     {
       id: 3,
-      src: installNode,
+      src: Resume,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_Resume_Builder",
+      liveUrl: "https://projectresumebuilder.netlify.app/",
     },
     {
       id: 4,
-      src: navbar,
-    },
-    {
-      id: 5,
-      src: reactSmooth,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: Library,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_E-Fork-Library",
+      liveUrl: "https://eforklibrarly.netlify.app/",
     },
   ];
+
+  function handleCodeClick(id) {
+    portfolios.map((port) =>
+      port.id === id ? window.open(port.codeUrl) : null
+    );
+  }
+
+  function handleLiveClick(id) {
+    portfolios.map((port) =>
+      port.id === id ? window.open(port.liveUrl) : null
+    );
+  }
   return (
     <div
       name="portfolio"
@@ -55,10 +64,16 @@ export default function Portfolio() {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => handleLiveClick(id)}
+                >
+                  Live
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => handleCodeClick(id)}
+                >
                   Code
                 </button>
               </div>

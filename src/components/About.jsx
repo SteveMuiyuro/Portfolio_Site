@@ -12,22 +12,21 @@ export default function About() {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          ipsam laboriosam aliquam eaque nemo, illum ut sint, quibusdam,
-          necessitatibus aspernatur iusto distinctio doloremque? Obcaecati hic
-          libero impedit illum ipsa unde blanditiis sint? Nesciunt veritatis a
-          eum tempore, quis tempora consectetur facere, sunt maiores
-          reprehenderit expedita est assumenda quam inventore numquam.
+        <p className="text-xl mt-5">
+          I thrive in optimizing UIs with Tailwind CSS, using its utility-first
+          approach to streamline development while maintaining a sleek and
+          polished design. This approach allows me to create visually appealing
+          interfaces without sacrificing performance.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-          odio fugiat eum dolores dicta praesentium animi ratione repellendus
-          magni quia? Asperiores deleniti quas, perferendis voluptas velit
-          dolores tempore. Labore, debitis. Illum et aperiam animi, consectetur
-          nam quaerat quod temporibus quidem hic minus commodi rerum
-          exercitationem optio, obcaecati, incidunt perspiciatis nostrum!
+          As a team player, I value open communication and collaboration. I'm
+          always eager to learn from experienced developers and contribute my
+          ideas to create innovative solutions.With a strong appetite for
+          learning, I'm excited to stay updated with the latest industry trends
+          and tools to continuously evolve my skill set. My goal is to
+          contribute effectively to projects that make a positive impact and to
+          grow into a well-rounded front-end developer.
         </p>
       </div>
     </div>

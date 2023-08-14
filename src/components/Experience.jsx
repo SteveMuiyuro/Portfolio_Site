@@ -3,11 +3,11 @@ import css from "../assets/css.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
-import nextjs from "../assets/nextjs.png";
+import typescript from "../assets/typescript.png";
 import reactImg from "../assets/react.png";
 import node from "../assets/node.png";
 import github from "../assets/github.png";
-import graphql from "../assets/graphql.png";
+import firebase from "../assets/firebase.png";
 
 export default function Experience() {
   const stacks = [
@@ -15,11 +15,11 @@ export default function Experience() {
     { id: 2, src: css, title: "Css", style: "shadow-blue-500" },
     { id: 3, src: javascript, title: "Javascript", style: "shadow-yellow-500" },
     { id: 4, src: tailwind, title: "Tailwind", style: "shadow-sky-400" },
-    { id: 5, src: node, title: "Node", style: "shadow-orange" },
+    { id: 5, src: node, title: "Node", style: "shadow-green-400" },
     { id: 6, src: reactImg, title: "React", style: "shadow-blue-600" },
-    { id: 7, src: nextjs, title: "NextJs", style: "shadow-white" },
+    { id: 7, src: typescript, title: "Typescript", style: "shadow-blue-500" },
     { id: 8, src: github, title: "GitHub", style: "shadow-gray-400" },
-    { id: 9, src: graphql, title: "Graphql", style: "shadow-pink-400" },
+    { id: 9, src: firebase, title: "Firebase", style: "shadow-yellow-500" },
   ];
   return (
     <div
