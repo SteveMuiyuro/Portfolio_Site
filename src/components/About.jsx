@@ -13,10 +13,10 @@ export default function About() {
           </p>
         </div>
         <p className="text-xl mt-5">
-          I thrive in optimizing UIs with Tailwind CSS, using its utility-first
-          approach to streamline development while maintaining a sleek and
-          polished design. This approach allows me to create visually appealing
-          interfaces without sacrificing performance.
+          I thrive in creating and optimizing UIs with React and Tailwind CSS,
+          using its utility-first approach to streamline development while
+          maintaining a sleek and polished design. This approach allows me to
+          create visually appealing interfaces without sacrificing performance.
         </p>
         <br />
         <p className="text-xl">
