@@ -14,12 +14,11 @@ export default function Home() {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm a passionate and innovative Front-End Developer with a strong
-            focus on creating exceptional user experiences through the power of
-            React. With a blend of creativity and technical proficiency, I excel
-            at translating design concepts into interactive and dynamic web
+            With a blend of creativity and technical proficiency, I excel at
+            translating design concepts into interactive and dynamic web
             applications. My expertise lies in crafting responsive,
-            high-performance user interfaces that engage and delight users.
+            high-performance user interfaces that provide seemless user
+            experience.
           </p>
           <div>
             <Link

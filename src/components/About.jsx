@@ -13,10 +13,11 @@ export default function About() {
           </p>
         </div>
         <p className="text-xl mt-5">
-          I thrive in creating and optimizing UIs with React and Tailwind CSS,
-          using its utility-first approach to streamline development while
-          maintaining a sleek and polished design. This approach allows me to
-          create visually appealing interfaces without sacrificing performance.
+          What sets me apart is not only my technical prowess, but also my
+          strong collaborative spirit. I thrive in team environments where I can
+          contribute ideas, seek feedback, and learn from my peers. I am an
+          adaptable problem-solver, always eager to take on challenges and find
+          innovative solutions to complex coding and design puzzles.
         </p>
         <br />
         <p className="text-xl">
