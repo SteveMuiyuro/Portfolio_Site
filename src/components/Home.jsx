@@ -34,11 +34,11 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="pb-20">
           <img
             src={myImage}
             alt="my profile"
-            className="rounded-2xl mx-auto v-2/3 md:w-full"
+            className="rounded-2xl mx-auto v-2/3 md:w-full "
           />
         </div>
       </div>
