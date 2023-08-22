@@ -10,7 +10,7 @@ export default function Portfolio() {
       src: Gfox,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Gfox_Logistics",
       liveUrl: "https://gfoxlogistics.netlify.app/",
-      name: "Logistics Site",
+      name: "Logistics App",
     },
     {
       id: 2,
