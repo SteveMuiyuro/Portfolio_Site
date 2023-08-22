@@ -10,24 +10,28 @@ export default function Portfolio() {
       src: Gfox,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Gfox_Logistics",
       liveUrl: "https://gfoxlogistics.netlify.app/",
+      name: "Logistics Site",
     },
     {
       id: 2,
       src: Quizzical,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
       liveUrl: "https://project-quizzical.netlify.app/",
+      name: "Quizzical",
     },
     {
       id: 3,
       src: Resume,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Resume_Builder",
       liveUrl: "https://projectresumebuilder.netlify.app/",
+      name: "Resume Builder",
     },
     {
       id: 4,
       src: Library,
       codeUrl: "https://github.com/SteveMuiyuro/Project_E-Fork-Library",
       liveUrl: "https://eforklibrarly.netlify.app/",
+      name: "Library",
     },
   ];
 
@@ -56,13 +60,14 @@ export default function Portfolio() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-10">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, name }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <p className="text-center p-5 font-bold">{name}</p>
               <div className="flex items-center justify-center">
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"

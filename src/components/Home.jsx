@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "/src/assets/profile_photo.png";
+import myImage from "/src/assets/my-photo.jpg";
 import { PiArrowRight } from "react-icons/pi";
 import { Link } from "react-scroll";
 export default function Home() {
