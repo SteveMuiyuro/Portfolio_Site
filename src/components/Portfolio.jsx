@@ -2,7 +2,7 @@ import Gfox from "../assets/portfolio/Gfox.png";
 import Quizzical from "../assets/portfolio/Quizzical.png";
 import Resume from "../assets/portfolio/Resume.png";
 import Library from "../assets/portfolio/Library.png";
-
+import Ecommerce from "../assets/portfolio/ecommerce-store.png";
 export default function Portfolio() {
   const portfolios = [
     {
@@ -14,10 +14,10 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      src: Quizzical,
-      codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
-      liveUrl: "https://project-quizzical.netlify.app/",
-      name: "Quizzical",
+      src: Ecommerce,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_OnlineStore",
+      liveUrl: "https://daintystore.netlify.app/",
+      name: "Online Store",
     },
     {
       id: 3,
@@ -28,6 +28,13 @@ export default function Portfolio() {
     },
     {
       id: 4,
+      src: Quizzical,
+      codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
+      liveUrl: "https://project-quizzical.netlify.app/",
+      name: "Quizzical",
+    },
+    {
+      id: 5,
       src: Library,
       codeUrl: "https://github.com/SteveMuiyuro/Project_E-Fork-Library",
       liveUrl: "https://eforklibrarly.netlify.app/",
