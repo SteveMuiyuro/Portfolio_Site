@@ -1,17 +1,10 @@
-import Gfox from "../assets/portfolio/Gfox.png";
+
 import Quizzical from "../assets/portfolio/Quizzical.png";
 import Resume from "../assets/portfolio/Resume.png";
-import Library from "../assets/portfolio/Library.png";
 import Ecommerce from "../assets/portfolio/ecommerce-store.png";
 export default function Portfolio() {
   const portfolios = [
-    {
-      id: 1,
-      src: Gfox,
-      codeUrl: "https://github.com/SteveMuiyuro/Project_Gfox_Logistics",
-      liveUrl: "https://gfoxlogistics.netlify.app/",
-      name: "Logistics App",
-    },
+
     {
       id: 2,
       src: Ecommerce,
@@ -33,13 +26,7 @@ export default function Portfolio() {
       liveUrl: "https://project-quizzical.netlify.app/",
       name: "Quizzical",
     },
-    {
-      id: 5,
-      src: Library,
-      codeUrl: "https://github.com/SteveMuiyuro/Project_E-Fork-Library",
-      liveUrl: "https://eforklibrarly.netlify.app/",
-      name: "Library",
-    },
+
   ];
 
   function handleCodeClick(id) {
