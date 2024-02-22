@@ -2,8 +2,18 @@
 import Quizzical from "../assets/portfolio/Quizzical.png";
 import Resume from "../assets/portfolio/Resume.png";
 import Ecommerce from "../assets/portfolio/ecommerce-store.png";
+import JobSite from  "../assets/portfolio/Job-Site.png"
+
 export default function Portfolio() {
   const portfolios = [
+
+    {
+      id: 1,
+      src: JobSite,
+      codeUrl: "https://github.com/SteveMuiyuro/remDev",
+      liveUrl: "https://remotedeveloperjobs.netlify.app/",
+      name: "Job-Site",
+    },
 
     {
       id: 2,
@@ -55,13 +65,16 @@ export default function Portfolio() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-10">
           {portfolios.map(({ id, src, name }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className=" flex flex-col justify-between shadow-md shadow-gray-600 rounded-lg">
+            <div className="flex flex-col justify-between">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
               <p className="text-center p-5 font-bold">{name}</p>
+
+            </div>
               <div className="flex items-center justify-center">
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
