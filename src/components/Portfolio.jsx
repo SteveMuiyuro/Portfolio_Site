@@ -3,6 +3,7 @@ import Quizzical from "../assets/portfolio/Quizzical.png";
 import Resume from "../assets/portfolio/Resume.png";
 import Ecommerce from "../assets/portfolio/ecommerce-store.png";
 import JobSite from  "../assets/portfolio/Job-Site.png"
+import EventsQue from "../assets/portfolio/eventsque.png"
 
 export default function Portfolio() {
   const portfolios = [
@@ -17,20 +18,29 @@ export default function Portfolio() {
 
     {
       id: 2,
+      src: EventsQue,
+      codeUrl: "https://github.com/SteveMuiyuro/eventsque",
+      liveUrl: "https://eventsque.vercel.app/",
+      name: "Events Que"
+
+    },
+
+    {
+      id: 3,
       src: Ecommerce,
       codeUrl: "https://github.com/SteveMuiyuro/Project_OnlineStore",
       liveUrl: "https://daintystore.netlify.app/",
       name: "Online Store",
     },
     {
-      id: 3,
+      id: 4,
       src: Resume,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Resume_Builder",
       liveUrl: "https://projectresumebuilder.netlify.app/",
       name: "Resume Builder",
     },
     {
-      id: 4,
+      id: 5,
       src: Quizzical,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
       liveUrl: "https://project-quizzical.netlify.app/",
@@ -75,6 +85,7 @@ export default function Portfolio() {
               <p className="text-center p-5 font-bold">{name}</p>
 
             </div>
+
               <div className="flex items-center justify-center">
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
