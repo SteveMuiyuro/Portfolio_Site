@@ -4,12 +4,20 @@ import Resume from "../assets/portfolio/Resume.png";
 import Ecommerce from "../assets/portfolio/ecommerce-store.png";
 import JobSite from  "../assets/portfolio/Job-Site.png"
 import EventsQue from "../assets/portfolio/eventsque.png"
-
+import Petcare from "../assets/portfolio/petcare.png"
 export default function Portfolio() {
   const portfolios = [
 
     {
       id: 1,
+      src: Petcare,
+      codeUrl: "https://github.com/SteveMuiyuro/petsoft",
+      liveUrl: "https://petsoft-psi.vercel.app/",
+      name: "Pet Care",
+    },
+
+    {
+      id: 2,
       src: JobSite,
       codeUrl: "https://github.com/SteveMuiyuro/remDev",
       liveUrl: "https://remotedeveloperjobs.netlify.app/",
@@ -17,7 +25,7 @@ export default function Portfolio() {
     },
 
     {
-      id: 2,
+      id: 3,
       src: EventsQue,
       codeUrl: "https://github.com/SteveMuiyuro/eventsque",
       liveUrl: "https://eventsque.vercel.app/",
@@ -26,25 +34,18 @@ export default function Portfolio() {
     },
 
     {
-      id: 3,
+      id: 4,
       src: Ecommerce,
       codeUrl: "https://github.com/SteveMuiyuro/Project_OnlineStore",
       liveUrl: "https://daintystore.netlify.app/",
       name: "Online Store",
     },
     {
-      id: 4,
+      id: 5,
       src: Resume,
       codeUrl: "https://github.com/SteveMuiyuro/Project_Resume_Builder",
       liveUrl: "https://projectresumebuilder.netlify.app/",
       name: "Resume Builder",
-    },
-    {
-      id: 5,
-      src: Quizzical,
-      codeUrl: "https://github.com/SteveMuiyuro/Project_Quizzical",
-      liveUrl: "https://project-quizzical.netlify.app/",
-      name: "Quizzical",
     },
 
   ];
@@ -82,23 +83,27 @@ export default function Portfolio() {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <p className="text-center p-5 font-bold">{name}</p>
+
 
             </div>
+                <p className="text-center p-5 mt-auto font-bold">{name}</p>
 
-              <div className="flex items-center justify-center">
-                <button
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  onClick={() => handleLiveClick(id)}
-                >
-                  Live
-                </button>
-                <button
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  onClick={() => handleCodeClick(id)}
-                >
-                  Code
-                </button>
+              <div className="flex  items-center justify-center">
+                <div className="flex  items-center justify-center">
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    onClick={() => handleLiveClick(id)}
+                  >
+                    Live
+                  </button>
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    onClick={() => handleCodeClick(id)}
+                  >
+                    Code
+                  </button>
+
+                </div>
               </div>
             </div>
           ))}
