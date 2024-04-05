@@ -1,4 +1,3 @@
-import React from "react";
 import css from "../assets/css.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
@@ -7,7 +6,7 @@ import typescript from "../assets/typescript.png";
 import reactImg from "../assets/react.png";
 import node from "../assets/node.png";
 import github from "../assets/github.png";
-import firebase from "../assets/firebase.png";
+import nextjs from "../assets/nextjs.png";
 
 export default function Experience() {
   const stacks = [
@@ -19,7 +18,7 @@ export default function Experience() {
     { id: 6, src: reactImg, title: "React", style: "shadow-blue-600" },
     { id: 7, src: typescript, title: "Typescript", style: "shadow-blue-500" },
     { id: 8, src: github, title: "GitHub", style: "shadow-gray-400" },
-    { id: 9, src: firebase, title: "Firebase", style: "shadow-yellow-500" },
+    { id: 9, src: nextjs, title: "Nextjs", style: "shadow-gray-600" },
   ];
   return (
     <div
