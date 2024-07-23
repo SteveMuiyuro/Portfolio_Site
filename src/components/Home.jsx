@@ -14,10 +14,9 @@ export default function Home() {
           Fullstack <span className="text-emerald-400">Developer</span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            With a blend of creativity and technical proficiency, I excel at
+            With a blend of AI Engineering and technical proficiency, I excel at
             translating design concepts into interactive and dynamic web
-            applications. My expertise lies in crafting responsive,
-            high-performance user interfaces that supports user requirements seemless
+            applications. My passion lies in crafting hoght performant AI driven end-to-end applications, that provide effient and lasting solutions to the end user
             experience.
           </p>
           <div>
