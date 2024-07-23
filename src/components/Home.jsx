@@ -2,6 +2,7 @@ import React from "react";
 import myImage from "/src/assets/my-photo.jpg";
 import { PiArrowRight } from "react-icons/pi";
 import { Link } from "react-scroll";
+import { Analytics } from "@vercel/analytics/react"
 export default function Home() {
   return (
     <div
@@ -38,6 +39,7 @@ export default function Home() {
             alt="my profile"
             className="rounded-2xl mx-auto v-2/3 md:w-full "
           />
+          <Analytics/>
         </div>
       </div>
     </div>
