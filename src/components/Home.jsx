@@ -16,8 +16,7 @@ export default function Home() {
           <p className="text-gray-500 py-4 max-w-md">
             With a blend of AI Engineering and technical proficiency, I excel at
             translating design concepts into interactive and dynamic web
-            applications. My passion lies in crafting hoght performant AI driven end-to-end applications, that provide effient and lasting solutions to the end user
-            experience.
+            applications. My passion lies in crafting high performant AI driven end-to-end applications, that provide efficient and lasting solutions to the end user.
           </p>
           <div>
             <Link
