@@ -36,7 +36,7 @@ export default function Home() {
         <div className="pb-20">
           <img
             src={myImage}
-            alt="my profile"
+            alt="Steve Mwangi"
             className="rounded-2xl mx-auto v-2/3 md:w-full "
           />
           <Analytics/>
