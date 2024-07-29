@@ -34,11 +34,11 @@ export default function Home() {
           </div>
         </div>
         <div className="pb-20">
-          <img
+          {/* <img
             src={myImage}
             alt="Steve Mwangi"
-            className="rounded-2xl mx-auto v-2/3 md:w-full "
-          />
+            className="rounded-2xl mx-auto v-2/3 md:w-full rounded-lg "
+          /> */}
           <Analytics/>
         </div>
       </div>
