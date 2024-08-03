@@ -1,5 +1,5 @@
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -27,8 +27,7 @@ const NavBar = () => {
     },
   ];
   return (
-
-        <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-10">
+    <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-10">
       <div>
         <h1 className=" text-lg md:text-5xl font-inter ml-2">Steve <span className="text-emerald-400 font-semibold">Mwangi</span></h1>
       </div>
@@ -70,8 +69,6 @@ const NavBar = () => {
         </ul>
       )}
     </div>
-
-
   );
 };
 
